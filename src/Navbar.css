@@ -1,0 +1,27 @@
+.gradient-custom {
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(54, 11, 11), rgb(95, 4, 4))
+}
+
+.navbar-nav>li {
+  padding-left: 30px;
+  padding-right: 30px;
+  justify-content: center;
+}
+
+.dropdown-item {
+  color: beige;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+.navbar-brand {
+  text-shadow: 3px 3px 20px #ff99cc, -2px 1px 30px #ff99cc;
+  padding-left: 25px;
+}
+
+.navbar a {
+  font-family: 'Cormorant', serif;
+}

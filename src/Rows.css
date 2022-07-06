@@ -1,0 +1,40 @@
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-top: 80px;
+    text-align: center;
+    color: beige;
+    
+
+}
+
+    .items {
+
+        overflow-x: hidden;
+        overflow-y: scroll;
+        padding: 20px;
+        padding-left: 50px;
+
+
+    }
+
+    .items::-webkit-scrollbar {
+        display: none;
+    }
+
+    .item_poster {
+        position: relative;
+        object-fit: contain;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-left: 40px;
+        height: 300px;
+        transition: transform 450ms;
+        cursor: pointer;
+    
+    }
+
+    .item_poster:hover {
+        transform: scale(1.2);
+        
+    }
